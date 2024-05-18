@@ -1,0 +1,12 @@
+img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.imgError{
+    width: 100%;
+    aspect-ratio: 16/9; /* te arregla la img, tte acomoda el ancho y el alto (width y height) */
+    display: block;
+    border-radius: 10px;
+}

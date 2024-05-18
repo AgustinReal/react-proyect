@@ -1,0 +1,27 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+table{
+    width: 100%;
+  }
+
+table img{
+    height: 50px;
+    width: 50px;
+  }
+
+.containerButtons{
+  margin: 40px;
+ }
+
+.containerButtons button{
+  margin: 5px;
+}
+
+.pointer{
+  cursor: crosshair;
+}

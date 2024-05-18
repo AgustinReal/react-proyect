@@ -1,0 +1,27 @@
+.container{
+    grid-area: ingreso-note;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 600px;
+    background-color: rgb(248, 112, 153);
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.container label{
+    text-align: center;
+    font-size: 27px;
+}
+
+.container input{
+    width: 500px;
+}
+
+.container button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+}

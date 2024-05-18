@@ -1,0 +1,63 @@
+body{
+  background-color: rgb(124, 186, 248);
+
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.page h1{
+  font-size: 60px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 850px;
+}
+
+.formPeliculas{
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .formPeliculas input{
+  
+} */
+
+.list-peliculas{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  width: 100%;
+  gap: 32px;
+}
+
+.list-peliculas li{
+  overflow: hidden;
+}
+
+.list-peliculas h3, p{
+  margin: 0;
+  text-align: center;
+}
+
+.list-peliculas img{
+  border-radius: 10px 10px 10px 10px;
+  width: 250px;
+  height: 300px;
+}
+
+.p-error{
+  color: red;
+}

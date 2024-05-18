@@ -1,0 +1,81 @@
+  body{
+    margin: 0;
+    background: #222;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  }
+  
+  .tw-followCrad{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    justify-content: space-between;
+  }
+  
+  .tw-followCrad-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .tw-followCrad-info{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tw-followCrad-infoUserName{
+    opacity: .6;
+  }
+  
+  .tw-followCrad-header-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+  }
+  
+  .tw-followCrad-button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: 1px solid #000;
+    transition: .3s ease background-color;
+  }
+
+  .tw-followCrad-button:hover{
+    opacity: .8;
+  }
+
+  .tw-followCrad-text{
+    display: block;
+  }
+
+  .tw-followCrad-button.is-following{
+    border: 1px solid #bbb;
+    background: transparent;
+    color: #fff;
+    width: 140px;
+  }
+
+  .tw-followCrad-button.is-following:hover{
+    background-color: rgba(255, 0, 0, 0.178);
+    color: red;
+    border: 1px solid red;
+    transition: .3s ease all;
+  }
+
+  .tw-followCrad-button.is-following:hover .tw-followCrad-text{
+    display: none;
+  }
+
+  .tw-followCrad-button.is-following:hover .tw-followCrad-stopFollow{
+    display: block;
+  }
+
+  .tw-followCrad-stopFollow{
+    display: none;
+  }

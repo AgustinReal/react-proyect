@@ -1,0 +1,10 @@
+Pruebas:
+
+pruebaUno => Api de Gatitos
+
+pruebaDos => Api de Peliculas
+
+pruebaTres => Api de Supermercado
+
+pruebaCuatro => Api de Router
+
